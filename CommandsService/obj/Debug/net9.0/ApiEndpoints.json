@@ -1,0 +1,90 @@
+[
+  {
+    "ContainingType": "CommandsService.Controllers.PlatformsController",
+    "Method": "GetAllPlatforms",
+    "RelativePath": "api/c/Platforms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CommandsService.Controllers.CommandsController",
+    "Method": "CreateCommand",
+    "RelativePath": "api/c/platforms/{platformId}/Commands",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "platformId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "CommandsService.Contracts.Commands.CreateCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CommandsService.Controllers.CommandsController",
+    "Method": "GetAllCommandsByPlatformId",
+    "RelativePath": "api/c/platforms/{platformId}/Commands",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "platformId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CommandsService.Controllers.CommandsController",
+    "Method": "GetCommand",
+    "RelativePath": "api/c/platforms/{platformId}/Commands/{commandId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "platformId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "commandId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CommandsService.Models.Command",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
