@@ -33,6 +33,10 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "CreatePlatformCommand.cs",
@@ -42,12 +46,7 @@
               "RelativeToolTip": "Features\\Platforms\\Commands\\CreatePlatformCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T11:37:34.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-05-24T11:37:34.501Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "Proflies\\MappingConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T11:36:35.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T11:36:35.686Z"
             },
             {
               "$type": "Document",
@@ -72,8 +70,7 @@
               "RelativeToolTip": "DataServices\\MessageBusClient.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwCUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T05:59:18.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T05:59:18.434Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "Endpoints\\PlatformEndpoints.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAowDAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T19:29:20.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T19:29:20.474Z"
             }
           ]
         }
