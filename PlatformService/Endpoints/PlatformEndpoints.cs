@@ -53,7 +53,7 @@ public class PlatformEndpoints : ICarterModule
         {
             await _commandDataClient.SendPlatformToCommand(result.Value);
             var platformPublish = new PlatformPublishDto(
-                result.Value.Id, 
+                result.Value.Id,
                 result.Value.Name,
                 "Platform_Published"
             );

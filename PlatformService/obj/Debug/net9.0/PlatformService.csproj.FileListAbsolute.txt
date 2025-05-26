@@ -219,3 +219,11 @@ D:\Micro\PlatformService\New folder\PlatformService\obj\Debug\net9.0\ref\Platfor
 D:\Micro\PlatformService\New folder\PlatformService\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 D:\Micro\PlatformService\New folder\PlatformService\bin\Debug\net9.0\RabbitMQ.Client.dll
 D:\Micro\PlatformService\New folder\PlatformService\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\Micro\PlatformService\New folder\PlatformService\bin\Debug\net9.0\Google.Protobuf.dll
+D:\Micro\PlatformService\New folder\PlatformService\bin\Debug\net9.0\Grpc.AspNetCore.Server.dll
+D:\Micro\PlatformService\New folder\PlatformService\bin\Debug\net9.0\Grpc.AspNetCore.Server.ClientFactory.dll
+D:\Micro\PlatformService\New folder\PlatformService\bin\Debug\net9.0\Grpc.Core.Api.dll
+D:\Micro\PlatformService\New folder\PlatformService\bin\Debug\net9.0\Grpc.Net.Client.dll
+D:\Micro\PlatformService\New folder\PlatformService\bin\Debug\net9.0\Grpc.Net.ClientFactory.dll
+D:\Micro\PlatformService\New folder\PlatformService\bin\Debug\net9.0\Grpc.Net.Common.dll
+D:\Micro\PlatformService\New folder\PlatformService\obj\Debug\net9.0\PlatformService.sourcelink.json

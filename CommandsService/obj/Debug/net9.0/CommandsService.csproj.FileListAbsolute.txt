@@ -132,3 +132,4 @@ D:\Micro\PlatformService\New folder\CommandsService\obj\Debug\net9.0\ref\Command
 D:\Micro\PlatformService\New folder\CommandsService\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 D:\Micro\PlatformService\New folder\CommandsService\obj\Debug\net9.0\staticwebassets.build.json.cache
 D:\Micro\PlatformService\New folder\CommandsService\bin\Debug\net9.0\RabbitMQ.Client.dll
+D:\Micro\PlatformService\New folder\CommandsService\obj\Debug\net9.0\CommandsService.sourcelink.json

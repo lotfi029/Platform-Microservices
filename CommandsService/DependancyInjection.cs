@@ -1,4 +1,5 @@
-﻿using CommandsService.IEventProcessing;
+﻿using CommandsService.DataService;
+using CommandsService.IEventProcessing;
 using CommandsService.Proflies;
 using FluentValidation.AspNetCore;
 using MapsterMapper;
@@ -30,7 +31,7 @@ public static class DependancyInjection
 
         services.AddScoped<ICommandRespository, CommandRespository>();
         services.AddSingleton<IEventProcessor, EventProcessor>();
-
+        services.AddHostedService<MessageBusSubscriber>();
 
         services.AddOptions<RabbitMQSettings>()
             .Bind(configuration.GetSection(nameof(RabbitMQSettings)))

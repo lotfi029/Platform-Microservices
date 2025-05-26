@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using CommandsService.Contracts.Platforms;
+using System.Text.Json;
 
 namespace CommandsService.IEventProcessing;
 
@@ -35,9 +36,10 @@ public class EventProcessor(IServiceScopeFactory _serviceScopeFactory) : IEventP
     {
         using var scop = _serviceScopeFactory.CreateScope();
         var _repo = scop.ServiceProvider.GetRequiredService<ICommandRespository>();
+        var platformDto = JsonSerializer.Deserialize<PlatformPublishDto>(message);
         try
         {
-            var platform = message.Adapt<Platform>();
+            var platform = platformDto.Adapt<Platform>();
             var exist = await _repo.ExternalPlatformExist(platform.ExternalId);
 
             if (!exist.IsSuccess)

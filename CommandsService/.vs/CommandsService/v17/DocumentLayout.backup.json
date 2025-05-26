@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "D:\\Micro\\PlatformService\\New folder\\CommandsService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\micro\\platformservice\\new folder\\commandsservice\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\micro\\platformservice\\new folder\\commandsservice\\rabbitmqsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:rabbitmqsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\micro\\platformservice\\new folder\\commandsservice\\ieventprocessing\\eventprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:ieventprocessing\\eventprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\micro\\platformservice\\new folder\\commandsservice\\contracts\\commands\\genericeventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:contracts\\commands\\genericeventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\micro\\platformservice\\new folder\\commandsservice\\dataservice\\messagebussubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:dataservice\\messagebussubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\micro\\platformservice\\new folder\\commandsservice\\ieventprocessing\\ieventprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:ieventprocessing\\ieventprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\micro\\platformservice\\new folder\\commandsservice\\persistence\\repositories\\commandrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:persistence\\repositories\\commandrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\micro\\platformservice\\new folder\\commandsservice\\persistence\\repositories\\icommandrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:persistence\\repositories\\icommandrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|d:\\micro\\platformservice\\new folder\\commandsservice\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E07837-2DDF-96B4-6062-F7ABF9916711}|CommandsService.csproj|solutionrelative:dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,99 +25,47 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RabbitMQSettings.cs",
-              "DocumentMoniker": "D:\\Micro\\PlatformService\\New folder\\CommandsService\\RabbitMQSettings.cs",
-              "RelativeDocumentMoniker": "RabbitMQSettings.cs",
-              "ToolTip": "D:\\Micro\\PlatformService\\New folder\\CommandsService\\RabbitMQSettings.cs",
-              "RelativeToolTip": "RabbitMQSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T12:38:41.379Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DependancyInjection.cs",
-              "DocumentMoniker": "D:\\Micro\\PlatformService\\New folder\\CommandsService\\DependancyInjection.cs",
-              "RelativeDocumentMoniker": "DependancyInjection.cs",
-              "ToolTip": "D:\\Micro\\PlatformService\\New folder\\CommandsService\\DependancyInjection.cs",
-              "RelativeToolTip": "DependancyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T12:36:24.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GenericEventDto.cs",
-              "DocumentMoniker": "D:\\Micro\\PlatformService\\New folder\\CommandsService\\Contracts\\Commands\\GenericEventDto.cs",
-              "RelativeDocumentMoniker": "Contracts\\Commands\\GenericEventDto.cs",
-              "ToolTip": "D:\\Micro\\PlatformService\\New folder\\CommandsService\\Contracts\\Commands\\GenericEventDto.cs",
-              "RelativeToolTip": "Contracts\\Commands\\GenericEventDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T12:32:29.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "EventProcessor.cs",
               "DocumentMoniker": "D:\\Micro\\PlatformService\\New folder\\CommandsService\\IEventProcessing\\EventProcessor.cs",
               "RelativeDocumentMoniker": "IEventProcessing\\EventProcessor.cs",
               "ToolTip": "D:\\Micro\\PlatformService\\New folder\\CommandsService\\IEventProcessing\\EventProcessor.cs",
               "RelativeToolTip": "IEventProcessing\\EventProcessor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T12:04:18.788Z",
+              "WhenOpened": "2025-05-25T22:40:48.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IEventProcessor.cs",
-              "DocumentMoniker": "D:\\Micro\\PlatformService\\New folder\\CommandsService\\IEventProcessing\\IEventProcessor.cs",
-              "RelativeDocumentMoniker": "IEventProcessing\\IEventProcessor.cs",
-              "ToolTip": "D:\\Micro\\PlatformService\\New folder\\CommandsService\\IEventProcessing\\IEventProcessor.cs",
-              "RelativeToolTip": "IEventProcessing\\IEventProcessor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DependancyInjection.cs",
+              "DocumentMoniker": "D:\\Micro\\PlatformService\\New folder\\CommandsService\\DependancyInjection.cs",
+              "RelativeDocumentMoniker": "DependancyInjection.cs",
+              "ToolTip": "D:\\Micro\\PlatformService\\New folder\\CommandsService\\DependancyInjection.cs",
+              "RelativeToolTip": "DependancyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T12:04:18.253Z",
+              "WhenOpened": "2025-05-25T18:23:19.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CommandRespository.cs",
-              "DocumentMoniker": "D:\\Micro\\PlatformService\\New folder\\CommandsService\\Persistence\\Repositories\\CommandRespository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\CommandRespository.cs",
-              "ToolTip": "D:\\Micro\\PlatformService\\New folder\\CommandsService\\Persistence\\Repositories\\CommandRespository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\CommandRespository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MessageBusSubscriber.cs",
+              "DocumentMoniker": "D:\\Micro\\PlatformService\\New folder\\CommandsService\\DataService\\MessageBusSubscriber.cs",
+              "RelativeDocumentMoniker": "DataService\\MessageBusSubscriber.cs",
+              "ToolTip": "D:\\Micro\\PlatformService\\New folder\\CommandsService\\DataService\\MessageBusSubscriber.cs",
+              "RelativeToolTip": "DataService\\MessageBusSubscriber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T12:00:42.316Z",
+              "WhenOpened": "2025-05-25T17:53:07.767Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ICommandRespository.cs",
-              "DocumentMoniker": "D:\\Micro\\PlatformService\\New folder\\CommandsService\\Persistence\\Repositories\\ICommandRespository.cs",
-              "RelativeDocumentMoniker": "Persistence\\Repositories\\ICommandRespository.cs",
-              "ToolTip": "D:\\Micro\\PlatformService\\New folder\\CommandsService\\Persistence\\Repositories\\ICommandRespository.cs",
-              "RelativeToolTip": "Persistence\\Repositories\\ICommandRespository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T11:59:50.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

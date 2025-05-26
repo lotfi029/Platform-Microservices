@@ -46,8 +46,8 @@ public static class DependancyInjection
         services.AddFluentValidationAutoValidation()
             .AddValidatorsFromAssembly(typeof(CreatePlatformRequestValidator).Assembly);
 
+        services.AddGrpc();
         services.AddScoped<IPlatformRepo, PlatformRepo>();
-
         services.AddOptions<ApiSettings>()
             .Bind(configuration.GetSection("ApiSettings"))
             .ValidateDataAnnotations()

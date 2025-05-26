@@ -1,4 +1,5 @@
 using PlatformService;
+using PlatformService.SyncDataServices.Grpc;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +17,12 @@ var app = builder.Build();
     app.MapScalarApiReference();
 //}
 
+
 app.MapCarter();
+app.MapGrpcService<GrpcPlatformService>();
+app.MapGet("/proto/platforms.proto", async context =>
+{
+    await context.Response.WriteAsync(File.ReadAllText("Protos/platforms.proto"));
+});
 
 app.Run();
