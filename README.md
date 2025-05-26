@@ -29,3 +29,18 @@ A .NET 9 microservices platform showcasing independent deployments, asynchronous
 
 ## 🗂 Project Structure
 
+├── CommandsService/
+│ ├── Controllers/ # REST & gRPC endpoints
+│ ├── Data/ # EF Core DbContext & migrations
+│ ├── Dtos/ # Request/response models
+│ ├── Protos/ # .proto definitions
+│ └── Dockerfile
+│
+├── PlatformService/
+│ ├── Controllers/ # REST & gRPC endpoints
+│ ├── Data/ # EF Core DbContext & migrations
+│ ├── Protos/ # .proto definitions
+│ └── Dockerfile
+│
+├── k8s/ # Kubernetes manifests (Deployments, Services, PVCs, Secrets, Ingress)
+├── README.md
