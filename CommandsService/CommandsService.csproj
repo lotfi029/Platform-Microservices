@@ -31,5 +31,7 @@
     <PackageReference Include="rabbitmq.client" Version="7.1.2" />
     <PackageReference Include="Scalar.AspNetCore" Version="2.3.1" />
   </ItemGroup>
-
+  <ItemGroup>
+	  <Protobuf Include="Protos\platforms.proto" GrpcServices="Client" />
+  </ItemGroup>
 </Project>

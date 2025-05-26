@@ -11,7 +11,7 @@ var app = builder.Build();
 
 app.MapOpenApi();
 app.MapScalarApiReference();
+await PrepData.PrepPopulation(app); // Fix: Added 'await' to ensure the task is awaited.
 
 app.MapControllers();
-
 app.Run();

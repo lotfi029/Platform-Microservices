@@ -17,7 +17,7 @@ spec:
                 name:  platform-clusterip-srv
                 port:
                   number: 8080
-          - path: /api/c/commands
+          - path: /api/c/platforms
             pathType: Prefix
             backend:
               service:

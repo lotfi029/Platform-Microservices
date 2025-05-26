@@ -1,6 +1,8 @@
 ﻿using CommandsService.DataService;
 using CommandsService.IEventProcessing;
+using CommandsService.Options;
 using CommandsService.Proflies;
+using CommandsService.SyncDataServices.Grpc;
 using FluentValidation.AspNetCore;
 using MapsterMapper;
 
@@ -30,8 +32,14 @@ public static class DependancyInjection
         services.AddSingleton<IMapper>(new Mapper(mappingConfig));
 
         services.AddScoped<ICommandRespository, CommandRespository>();
+        services.AddScoped<IPlatformDataClient, PlatformDataClient>();
         services.AddSingleton<IEventProcessor, EventProcessor>();
         services.AddHostedService<MessageBusSubscriber>();
+
+        services.AddOptions<GrpcPlatformOptions>()
+            .Bind(configuration.GetSection(nameof(GrpcPlatformOptions)))
+            .ValidateDataAnnotations()
+            .ValidateOnStart();
 
         services.AddOptions<RabbitMQSettings>()
             .Bind(configuration.GetSection(nameof(RabbitMQSettings)))

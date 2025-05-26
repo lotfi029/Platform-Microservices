@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Micro\\PlatformService\\New folder\\PlatformService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AFFCB9BC-11F1-4403-EE41-48117AABFABA}|PlatformService.csproj|d:\\micro\\platformservice\\new folder\\platformservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFFCB9BC-11F1-4403-EE41-48117AABFABA}|PlatformService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFFCB9BC-11F1-4403-EE41-48117AABFABA}|PlatformService.csproj|d:\\micro\\platformservice\\new folder\\platformservice\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AFFCB9BC-11F1-4403-EE41-48117AABFABA}|PlatformService.csproj|solutionrelative:appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AFFCB9BC-11F1-4403-EE41-48117AABFABA}|PlatformService.csproj|d:\\micro\\platformservice\\new folder\\platformservice\\dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AFFCB9BC-11F1-4403-EE41-48117AABFABA}|PlatformService.csproj|solutionrelative:dependancyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AFFCB9BC-11F1-4403-EE41-48117AABFABA}|PlatformService.csproj|d:\\micro\\platformservice\\new folder\\platformservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AFFCB9BC-11F1-4403-EE41-48117AABFABA}|PlatformService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFFCB9BC-11F1-4403-EE41-48117AABFABA}|PlatformService.csproj|d:\\micro\\platformservice\\new folder\\platformservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AFFCB9BC-11F1-4403-EE41-48117AABFABA}|PlatformService.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Micro\\PlatformService\\New folder\\PlatformService\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Micro\\PlatformService\\New folder\\PlatformService\\Program.cs \u2B24",
-              "RelativeToolTip": "Program.cs \u2B24",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T05:31:52.171Z",
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "D:\\Micro\\PlatformService\\New folder\\PlatformService\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "appsettings.Production.json",
+              "ToolTip": "D:\\Micro\\PlatformService\\New folder\\PlatformService\\appsettings.Production.json",
+              "RelativeToolTip": "appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-26T06:57:15.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DependancyInjection.cs",
-              "DocumentMoniker": "D:\\Micro\\PlatformService\\New folder\\PlatformService\\DependancyInjection.cs",
-              "RelativeDocumentMoniker": "DependancyInjection.cs",
-              "ToolTip": "D:\\Micro\\PlatformService\\New folder\\PlatformService\\DependancyInjection.cs",
-              "RelativeToolTip": "DependancyInjection.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T05:30:30.707Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Micro\\PlatformService\\New folder\\PlatformService\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Micro\\PlatformService\\New folder\\PlatformService\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-26T06:56:20.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Micro\\PlatformService\\New folder\\PlatformService\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\Micro\\PlatformService\\New folder\\PlatformService\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-26T06:56:03.771Z",
               "EditorCaption": ""
             },
             {
