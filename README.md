@@ -28,7 +28,7 @@ A .NET 9 microservices platform showcasing independent deployments, asynchronous
   YAML manifests under `/k8s` define Deployments, Services, PVCs, Secrets, and Ingress—mirroring production best practices for scaling, rolling updates, and service discovery.
 
 ## 🗂 Project Structure
-
+```
 ├── CommandsService/
 │ ├── Controllers/ # REST & gRPC endpoints
 │ ├── Data/ # EF Core DbContext & migrations
@@ -44,3 +44,4 @@ A .NET 9 microservices platform showcasing independent deployments, asynchronous
 │
 ├── k8s/ # Kubernetes manifests (Deployments, Services, PVCs, Secrets, Ingress)
 ├── README.md
+```
